@@ -9,7 +9,7 @@
     )
   }
 
-  import Label from '@/components/Forms/Label.svelte'
+  import Label from './Label.svelte'
 
   export let id = ''
   export let value = ''

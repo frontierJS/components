@@ -8,7 +8,7 @@
         .replace(/([A-Z][a-z])/g, ' $1')
     )
   }
-  import Label from '@/components/Forms/Label.svelte'
+  import Label from './Label.svelte'
 
   export let id = ''
   export let name = ''
