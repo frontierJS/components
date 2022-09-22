@@ -10,8 +10,8 @@
   // import { login } from '@/core/auth'
   import { auth } from '@/core/frontier'
   import { title } from '@/core/app'
-  import Input from '@/components/Forms/Input.svelte'
-  import { useForm } from '@/components/Forms/Form.svelte'
+  import Input from '../Forms/Input.svelte'
+  import { useForm } from '../Forms/Form.svelte'
   import Logo from '@/components/Logo.svelte'
   import { goto } from '@/core/router'
 

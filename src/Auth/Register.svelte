@@ -15,8 +15,8 @@
   // import { register } from '@/core/auth'
   import { auth } from '@/core/frontier'
   import { goto } from '@/core/router'
-  import Input from '@/components/Forms/Input.svelte'
-  import { useForm } from '@/components/Forms/Form.svelte'
+  import Input from '../Forms/Input.svelte'
+  import { useForm } from '../Forms/Form.svelte'
   import Logo from '@/components/Logo.svelte'
 
   // if currentUser is already logged in, we don't want them on the register page
