@@ -1,5 +1,5 @@
 <script context="module">
-  import { exportCSV } from '@/components/ExportLink.svelte'
+  import { exportCSV } from '../ExportLink.svelte'
 
   export { empty, exportCSV }
 

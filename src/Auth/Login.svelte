@@ -12,7 +12,7 @@
   import { title } from '@/core/app'
   import Input from '../Forms/Input.svelte'
   import { useForm } from '../Forms/Form.svelte'
-  import Logo from '@/components/Logo.svelte'
+  import Logo from '../Logo.svelte'
   import { goto } from '@/core/router'
 
   $title = 'Login'

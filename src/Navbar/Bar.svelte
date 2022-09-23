@@ -2,7 +2,7 @@
   import { feature } from '@/core/actions'
   import Navigation from './Navigation.svelte'
   import NavFooter from './NavFooter.svelte'
-  import Logo from '@/components/Logo.svelte'
+  import Logo from '../Logo.svelte'
   import { route } from '@/core/router'
 
   // This hide nav feature is in beta

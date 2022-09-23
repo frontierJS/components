@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte'
   import { views } from '@/resources/Report.svelte'
-  import ExportLink from '@/components/ExportLink.svelte'
+  import ExportLink from '../ExportLink.svelte'
 
   export let report = undefined
   export let exportFeature = true

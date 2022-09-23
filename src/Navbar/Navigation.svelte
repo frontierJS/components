@@ -1,6 +1,6 @@
 <script>
   import { beforeUrlChange } from '@/core/router'
-  import Icon from '@/components/Icon.svelte'
+  import Icon from '../Icon.svelte'
   import { sidebarState, currentUser } from '@/core/app'
   import NavLink from './NavLink.svelte'
   import { store as stats } from '@/resources/Stat.svelte'

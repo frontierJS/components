@@ -1,6 +1,6 @@
 <script>
   import { isActive } from '@/core/router'
-  import Icon from '@/components/Icon.svelte'
+  import Icon from '../Icon.svelte'
 
   export let icon = undefined
   export let text = undefined

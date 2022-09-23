@@ -1,6 +1,6 @@
 <script>
   import { getContext } from 'svelte'
-  import Timestamp from '@/components/Date/Timestamp.svelte'
+  import Timestamp from '../Date/Timestamp.svelte'
   import UserLink from '@/pages/users/_users.UserLink.svelte'
 
   export let resource = Object.values($$restProps)[0] || getContext('resource') || {}

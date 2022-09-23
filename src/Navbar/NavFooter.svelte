@@ -2,7 +2,7 @@
   import { goto } from '@/core/router'
   import { currentUser, currentAccount } from '@/core/app'
   import { auth } from '@/core/frontier'
-  import Icon from '@/components/Icon.svelte'
+  import Icon from '../Icon.svelte'
 
   function handleLogout () {
     auth.logout(() => $goto('/index'))

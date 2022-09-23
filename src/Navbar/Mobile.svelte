@@ -1,8 +1,8 @@
 <script>
   import Navigation from './Navigation.svelte'
   import NavFooter from './NavFooter.svelte'
-  import Logo from '@/components/Logo.svelte'
-  import Icon from '@/components/Icon.svelte'
+  import Logo from '../Logo.svelte'
+  import Icon from '../Icon.svelte'
   import { sidebarState } from '@/core/app'
   import { route } from '@/core/router'
 </script>

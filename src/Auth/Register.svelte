@@ -17,7 +17,7 @@
   import { goto } from '@/core/router'
   import Input from '../Forms/Input.svelte'
   import { useForm } from '../Forms/Form.svelte'
-  import Logo from '@/components/Logo.svelte'
+  import Logo from '../Logo.svelte'
 
   // if currentUser is already logged in, we don't want them on the register page
   $: if ($currentUser) $goto('/home')
